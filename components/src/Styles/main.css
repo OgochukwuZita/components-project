@@ -1,4 +1,28 @@
 .logo img{
-    padding-left: 40%;
-    width: 60%;
+    width: 25%;
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.search input{
+    width: 38%;
+    height: 45px;
+    border: 1px solid dimgrey;
+    border-radius: 25px;
+}
+.search input:hover{
+    background-color: rgb(41, 41, 41);
+}
+.search{
+    display: flex;
+    justify-content: center;
+
+}
+.searchIcons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+ }

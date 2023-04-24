@@ -4,12 +4,14 @@ import Search from './Search'
 import Buttons from './Buttons'
 import Languages from './Languages'
 import LanguageText from './LanguageText'
+import SearchIcons from './SearchIcons'
 import './Styles/main.css'
 export default function Main() {
   return (
     <div>
         <Logo/>
         <Search/>
+        <SearchIcons/>
         <div>
         <div>
         <Buttons title={<button>Google Search</button>}/>
