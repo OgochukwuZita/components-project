@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function LanguageText(props) {
-  return (
-    <div>{props.title}</div>
+  return ( 
+    <div className='LanguageText' >{props.title}</div>
   )
 }

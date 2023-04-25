@@ -1,0 +1,16 @@
+.footer{
+    padding-top: 25%;
+}
+hr{
+    height: 1px;
+    background-color: dimgrey;
+    border: none;
+}
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+.img{
+    display: flex;
+}

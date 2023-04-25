@@ -22,7 +22,36 @@
 }
 .searchIcons{
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    justify-content: center;
 
  }
+.Buttons{
+    display:flex;
+    justify-content: center;
+    gap: 1%;
+}
+.Buttons button{
+    color: #ffffff;
+    width: 12em;
+    height: 35px;
+    border: 1px solid  rgb(41, 41, 41);
+}
+.Buttons button:hover{
+    background-color:  rgb(41, 41, 41);
+}
+.Language{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 1%;
+}
+.LanguageText{
+    color: #ffffff;
+}
+.language a{
+    text-decoration: none;
+    color: rgb(127, 221, 255);
+}
+.language a:hover{
+    text-decoration: underline;
+}
